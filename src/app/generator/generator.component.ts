@@ -16,7 +16,7 @@ export class GeneratorComponent implements OnInit {
 
   ngOnInit(): void {
     let randomPick = Math.floor(Math.random() * this.foods.length);
-    this.pickedFood = this.foods[randomPick];
+    this.pickedFood = this.foods[randomPick] + " (" + randomPick + ")" ;
     //this.pickedFood = "" + this.foods.length;
   }
 
