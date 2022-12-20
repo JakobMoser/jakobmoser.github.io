@@ -1,0 +1,31 @@
+.box {
+    font-family: 'Cuprum', sans-serif;
+    border-radius: 2rem;
+    min-height: 7rem;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    display: flex;
+    vertical-align: middle;
+    align-items:center;
+    justify-content:center;
+}
+
+.yesterday {
+    background-color: #FFE68B;
+}
+
+.today {
+    background-color: #ffd335;
+    min-height: 12rem;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+.tommorow {
+    background-color: #BB9200;
+}
+
+.daytitle {
+    font-family: 'Cuprum', sans-serif;
+}

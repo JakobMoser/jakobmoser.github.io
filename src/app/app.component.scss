@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cuprum&display=swap');
+
+.heading {
+    font-family: 'Acme', sans-serif;
+}
+
+.text {
+    font-family: 'Cuprum', sans-serif;
+}
+
+.tentacle01 {
+    position: absolute;
+    width: 16rem;
+    right: 0;
+    top: 2rem;
+    z-index: 10;
+}
+
+.tentacle02 {
+    position: absolute;
+    width: 16rem;
+    left: 0;
+    top: 21rem;
+    z-index: 10;
+}
