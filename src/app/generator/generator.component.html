@@ -3,23 +3,24 @@
 </div>  -->
 <div class="h-12"></div>
 
-<div class="grid grid-cols-3 gap-4 mt-10" style="z-index: 20;">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10" style="z-index: 20;">
     <div class="px-7 pt-10 text-center">
-        <span class="daytitle text-white mb-2 text-2xl">Gestern</span>
+        <span class="daytitle text-white mb-4 text-2xl">Gestern</span>
         <div class="box yesterday">
-            {{randomFood()}}
+            {{randomFood(-1)}}
         </div>
     </div>
-    <div class="text-center">
-        <span class="daytitle text-white mb-2 text-2xl">Heute</span>
+    <div class="text-center px-3" style="z-index: 20;">
+        <span class="daytitle text-white mb-4 text-3xl">Heute</span>
+        <div class="grid grid-cols-3 gap-1"></div>
         <div class="box today">
-            {{randomFood()}}
+            {{randomFood(0)}}
         </div>
     </div>
-    <div class="px-7 pt-10 text-center" style="z-index: 20;">
-        <span class="daytitle text-white mb-2 text-2xl">Morgen</span>
+    <div class="px-7 pt-1 md:pt-10 text-center" style="z-index: 20;">
+        <span class="daytitle text-white mb-4 text-2xl">Morgen</span>
         <div class="box tommorow">
-            {{randomFood()}}
+            {{randomFood(1)}}
         </div>
     </div>
 </div>

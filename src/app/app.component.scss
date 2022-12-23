@@ -10,16 +10,28 @@
 
 .tentacle01 {
     position: absolute;
-    width: 16rem;
+    width: 10rem;
     right: 0;
-    top: 2rem;
+    top: 10rem;
     z-index: 10;
 }
 
 .tentacle02 {
     position: absolute;
-    width: 16rem;
+    width: 10rem;
     left: 0;
-    top: 21rem;
+    top: 57rem;
     z-index: 10;
+}
+
+@media only screen and (min-width: 768px) {
+    .tentacle01 {
+        top: 2rem;
+        width: 16rem;
+    }
+    
+    .tentacle02 {
+        top: 22rem;
+        width: 16rem;
+    }
 }
